@@ -1,0 +1,47 @@
+/* Alinha o título "Contato" no centro */
+h1 {
+    text-align: center;
+    /* Define o alinhamento do texto como centralizado. */
+}
+
+/* Centraliza o container */
+.container {
+    max-width: 600px;
+    /* Define a largura máxima do container. */
+    margin: 0 auto;
+    /* Define margens laterais automáticas para centralizar horizontalmente. */
+    padding: 20px;
+    /* Define preenchimento interno. */
+    background-color: #fff;
+    /* Define a cor de fundo do container. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Adiciona uma sombra suave. */
+    border-radius: 5px;
+    /* Define cantos arredondados. */
+    display: flex;
+    /* Usa flexbox para centralizar vertical e horizontalmente. */
+    flex-direction: column;
+    /* Alinha os elementos verticalmente. */
+    align-items: center;
+    /* Centraliza horizontalmente. */
+    justify-content: center;
+    /* Centraliza verticalmente. */
+}
+
+/* Estilo adicional para o botão de enviar */
+button[type="submit"] {
+    background-color: #007BFF;
+    /* Define a cor de fundo do botão. */
+    color: #fff;
+    /* Define a cor do texto do botão. */
+    border: none;
+    /* Remove a borda do botão. */
+    padding: 10px 20px;
+    /* Define o preenchimento do botão. */
+    cursor: pointer;
+    /* Define um cursor como um ponteiro ao passar o mouse sobre o botão. */
+    border-radius: 5px;
+    /* Define cantos arredondados. */
+    margin-top: 10px;
+    /* Define a margem superior do botão. */
+}
